@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login System</title>
+  <link rel="stylesheet" href="LoginPage.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Registration Section -->
+    <div id="register-section">
+      <h2>Register</h2>
+      <input type="text" id="register-username" placeholder="Enter username" required />
+      <input type="password" id="register-password" placeholder="Enter password" required />
+      <button id="register-btn">Register</button>
+      <p id="already-registered">
+        Already registered? <a href="#" id="go-to-login">Login here</a>.
+      </p>
+    </div>
+
+    <!-- Login Section -->
+    <div id="login-section" style="display: none;">
+      <h2>Login</h2>
+      <input type="text" id="login-username" placeholder="Enter username" required />
+      <input type="password" id="login-password" placeholder="Enter password" required />
+      <button id="login-btn">Login</button>
+    </div>
+
+    <!-- Secured Page -->
+    <div id="secured-page" style="display: none;">
+      <h2>Welcome to the Secured Page</h2>
+      <p>You have successfully logged in!</p>
+      <button id="logout-btn">Logout</button>
+    </div>
+  </div>
+  <script src="LoginPage.js"></script>
+</body>
+</html>
