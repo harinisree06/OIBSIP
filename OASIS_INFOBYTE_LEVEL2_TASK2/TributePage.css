@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  /* Header styles */
+  header {
+    text-align: center;
+    background-color: #00539C;
+    color: white;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  header p {
+    font-style: italic;
+    margin: 5px 0;
+  }
+  
+  /* Image section */
+  .image-section {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .image-section img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Bio section */
+  .bio-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Achievements section */
+  .achievements-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .achievements-section ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  /* Quote section */
+  .quote-section {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.2em;
+    font-style: italic;
+    color: #00539C;
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #00539C;
+    color: white;
+    margin-top: 20px;
+  }
+  
